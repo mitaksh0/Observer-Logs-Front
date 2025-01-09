@@ -1,1 +1,3 @@
-# Observer-Logs-Front-
+# Observer-Logs-Front
+
+Front end for Observer API
