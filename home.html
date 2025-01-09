@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Log Viewer</h1>
+    <form id="search-form">
+      <label for="start">Start Time:</label>
+      <input type="text" id="start" name="start">
+      
+      <label for="end">End Time:</label>
+      <input type="text" id="end" name="end">
+      
+      <label for="text">Search Text:</label>
+      <input type="text" id="text" name="text">
+      
+      <button type="submit">Search</button>
+    </form>
+
+    <table id="log-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Body</th>
+          <th>Service</th>
+          <th>Severity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Log rows will be dynamically populated here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
